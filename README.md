@@ -23,7 +23,7 @@ Implement a synchronous, single-clock FIFO (First-In First-Out) memory in Verilo
 51–75%, 76–99%, full), and simultaneous read-write scenarios.
 
 # Expected Deliverables
-- sync_fifo.v — synthesizable RTL.
-- tb_sync_fifo.sv — class-based testbench with scoreboard and SVA.
+- Synchronous_FIFO.v — synthesizable RTL.
+- tb_Synchronous_FIFO.sv — class-based testbench with scoreboard and SVA.
 - coverage_report.txt — summary showing >95% functional coverage.
 - Waveform showing: push to full, simultaneous read/write, almost_full toggle.
